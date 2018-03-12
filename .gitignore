@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.idea
+/gradle.properties
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Mac OS X clutter
+*.DS_Store
+
+# Windows clutter
+Thumbs.db

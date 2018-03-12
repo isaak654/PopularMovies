@@ -1,0 +1,35 @@
+<resources>
+    <!-- Name of the app-->
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Content descriptions-->
+    <string name="movie_picture_content_description">Movie picture</string>
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+    <!-- Text to display in the list when there are no movies -->
+    <string name="no_movies">No movies found.</string>
+
+    <!-- Detail Activity-->
+    <string name="title_movie_detail">Movie Detail</string>
+    <string name="txt_title_label">Title:</string>
+    <string name="txt_date_label">Release date:</string>
+    <string name="txt_poster_label">Movie Poster:</string>
+    <string name="txt_vote_label">Average vote:</string>
+    <string name="txt_overview_label">Plot:</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Settings label -->
+    <string name="action_settings">Settings</string>
+    <!-- 'Order by' entry in Settings -->
+    <string name="pref_title_order_by">Order by</string>
+    <string name="pref_order_by_key" translatable="false">order_by_list</string>
+    <string-array name="pref_order_by_titles" translatable="false">
+        <item>Most popular</item>
+        <item>Top rated</item>
+    </string-array>
+    <string-array name="pref_order_by_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>
